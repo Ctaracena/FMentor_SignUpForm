@@ -82,7 +82,8 @@ form {
 .email-wrapper input, 
 .password-wrapper input {
   border-style: none;
-  width: auto;
+  width: 65%;
+  outline: none;
 }
 .btn {
   background-color: hsl(154, 59%, 51%);
