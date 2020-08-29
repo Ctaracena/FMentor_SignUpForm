@@ -130,7 +130,13 @@ form {
   .details h1 {
     font-size: 45px;
   }
-
+  .promo {
+  width: 100%;
+  padding: 15px 0;
+  }
+  .promo p {
+    width: 80%;
+  }
   .form-wrapper {
     width: 45%;
   }
