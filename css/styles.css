@@ -6,7 +6,6 @@
 }
 
 body {
-  width: 375px;
   margin: auto;
   background-image: url(../images/bg-intro-mobile.png);
   background-color: hsl(0, 100%, 74%);
@@ -42,7 +41,9 @@ body {
   margin-bottom: 20px;
   box-shadow: 0 5px 2px 2px #DB6567;
 }
-.promo p {
+.promo h3 {
+  font-size: 16px;
+  font-weight: 400;
   width: 60%;
   line-height: 1.9;
   text-align: center;
@@ -82,7 +83,7 @@ form {
 .email-wrapper input, 
 .password-wrapper input {
   border-style: none;
-  width: 65%;
+  width: 60%;
   outline: none;
 }
 .btn {
@@ -96,7 +97,7 @@ form {
   padding: 15px 5px;
   box-shadow: 0 2px 2px 2px #37ad7a;
 }
-.form p {
+.form h3 {
   color: hsl(246, 25%, 77%);
   font-size: 11px;
   width: 90%;
@@ -134,8 +135,8 @@ form {
   width: 100%;
   padding: 15px 0;
   }
-  .promo p {
-    width: 80%;
+  .promo h3 {
+    width: 100%;
   }
   .form-wrapper {
     width: 45%;
@@ -145,18 +146,11 @@ form {
 
 
 @media screen and (min-width: 1250px) {
-  body {
-    width: 100vw;
-    padding-top: 100px;
-  }
   .main-container {
-    display: flex;
-    align-items: center;
     justify-content: space-evenly;
   }
   .details {
     width: 36%;
-    text-align: left;
   }
   .details h1 {
     font-size: 48px;
